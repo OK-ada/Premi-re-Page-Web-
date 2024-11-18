@@ -1,0 +1,57 @@
+/* Page entière (couleur,synthaxe.. )*/
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 20px;
+}
+/* Introduction */
+h1{
+    color: rgb(230, 150, 80);
+}
+header {
+    text-align: center;
+    margin-bottom: 20px;
+}
+/* ID pour produits (placement) */
+#produits {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+/* Classe des produits (placement) */
+.produit {
+    background-color: white;
+    border: 1px solid #ddd;
+    border-radius: 15px;
+    padding: 20px;
+    margin: 50px a;
+    width: 700px ;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+/* Taille des image */ 
+img{
+    width: 200px;
+    border-radius: 15px;
+    margin: 15px auto;
+    padding: 15px;
+}
+/* Les boutons */
+button {
+    background-color: #28a745;
+    color: white;
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+button:hover {
+    background-color: #218838;
+}
+/* ID du Panier */ 
+#panier {
+    margin-top: 30px;
+    text-align: center;
+}
+

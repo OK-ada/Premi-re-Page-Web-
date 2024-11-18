@@ -1,0 +1,69 @@
+ <!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Au quatre coins du monde</title>
+    <link rel="stylesheet" href="style.css">
+    
+</head>
+<body>
+    <header>
+    <!--Section titre et Intro -->
+
+    <h1>Quatre coins du monde </h1>
+    <q> A votre service depuis 1998 <br/>
+        Au quatre coins du monde garantie aux clients<br/> 
+        Les saveur authentique des plats les plus célèbre des cinqs continents en plein coeur de  Paris
+    </q>
+
+    </header>
+
+    <!--Main avec les produits et le panier-->
+    <main>
+        <!--Section produit-->
+        <section id="Produits">
+
+        <!--produit 1-->
+            <div class="produit">
+                <h5>Première étape de notre tour du monde vers l'asie avec la soupe au ramen </h5>
+                <img src="images/soupe ramen boeuf.jfif" alt="soupe ramen au boeuf"> 
+                <button onclick="commander('Produit 1', 14)">Ajouter</button>
+            </div>
+        
+        <!--produit 2-->
+            <div class="produit">
+                <h5>Un possible détour en amérique pour convenir aux gouts de chacuns avec l'emplématique Hamburger </h5>
+                <img src="images/burger.jpg" alt="burger au boeuf">
+                <button onclick="commander('Produit 2', 12)">Ajouter</button>  
+            </div>
+        
+        <!--produit 3-->
+            <div class="produit">
+                <h5>Pour nous accompagner lors de se périple un jus d'hibiscus à servir très frais </h5>
+                <img src="images/bissap.jfif" alt="Jus d'hibiscus">
+                <button onclick="commander('Produit 3', 6)">Ajouter</button>  
+            </div>
+        
+        <!--Produit 4-->
+            <div class="produit">
+                <h5>La touche final avec le plus célebre des dessert italien !</h5>
+                <img src="images/tiramisu.jfif" alt="Tiramisu">
+                <button onclick="commander('Produit 4', 5)" >Ajouter</button>
+            </div>
+        </section>
+        <!--Total de la commande-->
+        <section id="Panier">
+            <h2>Votre commande</h2>
+            <p id="nombreProduits"> Total </p>
+            <button > Valider </button>
+        </section>
+            
+    
+</main>
+
+<!--Java Script-->  
+<script src="script.js"></script>
+
+</body>
+</html>
